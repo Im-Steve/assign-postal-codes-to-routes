@@ -1,0 +1,20 @@
+{
+  "name": "assign-postal-codes-to-routes",
+  "version": "1.0.0",
+  "main": "assign.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pre-release": "npm install && npm outdated && npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "dependencies": {
+    "polygon": "^1.0.2",
+    "useful-toolbox-js": "github:im-steve/useful-toolbox-js#v0.10.0",
+    "vec2": "^1.6.1",
+    "xlsx": "^0.19.3"
+  }
+}
